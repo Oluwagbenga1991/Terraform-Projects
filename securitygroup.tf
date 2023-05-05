@@ -103,7 +103,7 @@ resource "aws_security_group" "webserver_security_group" {
 }
 
 # create security group for the database
-# terraform aws create security group
+# terrafo"awrm aws create security group
 resource "aws_security_group" "database_security_group" {
   name        = "database security group"
   description = "enable mysql/aurora access on port 3306"
