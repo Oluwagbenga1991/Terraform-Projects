@@ -71,3 +71,9 @@ variable "ssl_certificate_arn" {
   description = "ssl certificate arn"
   type        = string
 }
+#sns-topic variable
+variable "operator_email" {
+  default     = "holuwagbenga@aol.com"
+  description = "email"
+  type        = string
+}
